@@ -1,0 +1,189 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={CEMiTool},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{CEMiTool}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{}
+    \preauthor{}\postauthor{}
+    \date{}
+    \predate{}\postdate{}
+  
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\section{Report}\label{report}
+
+\subsection{Modules}\label{modules}
+
+\hypertarget{htmlwidget-c521a5541d1e589bfc01}{}
+
+\hypertarget{htmlwidget-69b708796b7dc961ff3f}{}
+
+\subsection{Profile Plot}\label{profile-plot}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/profile-plots-1} \end{center}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/profile-plots-2} \end{center}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/profile-plots-3} \end{center}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/profile-plots-4} \end{center}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/profile-plots-5} \end{center}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/profile-plots-6} \end{center}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/profile-plots-7} \end{center}
+
+\subsection{Gene Set Enrichment
+Analysis}\label{gene-set-enrichment-analysis}
+
+\subsubsection{Please provide a sample
+annotation!}\label{please-provide-a-sample-annotation}
+
+\subsubsection{Please run enrichment
+analysis!}\label{please-run-enrichment-analysis}
+
+\subsection{Over Representation
+Analysis}\label{over-representation-analysis}
+
+\subsubsection{M1}\label{m1}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/ora-results-1} \end{center}
+
+\hypertarget{htmlwidget-e0b593e28d99bf2a7ef0}{}
+
+\subsubsection{M2}\label{m2}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/ora-results-2} \end{center}
+
+\hypertarget{htmlwidget-fedc56804b9818471cea}{}
+
+\subsubsection{M3}\label{m3}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/ora-results-3} \end{center}
+
+\hypertarget{htmlwidget-babe706481ee5b3453ed}{}
+
+\subsubsection{M4}\label{m4}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/ora-results-4} \end{center}
+
+\hypertarget{htmlwidget-5414080de308a27e71e2}{}
+
+\subsubsection{M5}\label{m5}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/ora-results-5} \end{center}
+
+\hypertarget{htmlwidget-c435920c76d73f301f7e}{}
+
+\subsubsection{M6}\label{m6}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/ora-results-6} \end{center}
+
+\hypertarget{htmlwidget-fdebc0316302b2d7be8d}{}
+
+\subsubsection{Not.Correlated}\label{not.correlated}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/ora-results-7} \end{center}
+
+\hypertarget{htmlwidget-04fc475c08557548271e}{}
+
+\subsection{Interaction Network}\label{interaction-network}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/interaction-networks-1} \end{center}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/interaction-networks-2} \end{center}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/interaction-networks-3} \end{center}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/interaction-networks-4} \end{center}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/interaction-networks-5} \end{center}
+
+\begin{center}\includegraphics{/data/user/vendela/case_studies/output/BRCA/co-expression/Reports/Report/report_files/figure-latex/interaction-networks-6} \end{center}
+
+\subsection{Parameters}\label{parameters}
+
+\hypertarget{htmlwidget-fdf48a8499bab8fd7fdc}{}
+
+
+\end{document}
